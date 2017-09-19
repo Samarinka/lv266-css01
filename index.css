@@ -1,0 +1,61 @@
+/*import url('https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet');*/
+ * {
+     font-family: Arial, 'Archivo Black', sams-serif;
+ } 
+ 
+ h1 {
+     color: red;
+ }
+ p {
+     color: green ;
+ }
+ #selected {
+     color: brown;
+ }
+ .mark {
+     color: blu;
+ }
+ header p {
+     color: yellow;
+ }
+ header + p {
+     color: orange;
+ }
+ body {
+     color: grey;
+ }
+ 
+ a[href="https"] {
+     color:rgb(38, 165, 150);
+ }
+ 
+ p::first-letter{
+    color: black;
+ }
+ 
+ p::before {
+     content: "<";
+     color: red;
+ }
+ 
+ p{
+     border: 1px solid white;
+ }
+ 
+ 
+ p:hover {
+     border: 1px solid red;
+ }
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
